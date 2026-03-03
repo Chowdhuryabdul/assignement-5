@@ -1,0 +1,71 @@
+.btn{
+    display: inline-block;
+    font-weight: 600;
+    color: var(--clr-white);
+    background-color: var(--clr-blue);
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    padding: 0.5rem 1em;
+    border-radius: 6px;
+    margin-top: 0.5rem;
+    /* transition: transform 0.3s ease; */
+
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+}
+.container{
+  /* max-width: 1400px; */
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 1px solid red
+}
+
+
+.section{
+    margin-top: 1rem;
+    padding: 2rem 0;
+}
+
+/* media queries  */
+/* For the XS  */
+@media(min-width: 475px){
+   .container{
+    max-width: 475px;
+   } 
+}
+/* For the Sm  */
+/* @media(min-width: 640px){
+    .container{
+    max-width: 640px;
+   }
+} */
+/* For the medium  */
+@media(min-width: 768px){
+   .container{
+    max-width: 768px;
+   }
+  
+}
+/* For the lg  */
+@media(min-width: 1024px){
+    .container{
+    max-width: 1024px;
+   }
+}
+/* For the Xl  */
+@media(min-width: 1400px){
+    .container{
+    max-width: 1400px;
+   }
+}
+/* For the 2xl  */
+@media(min-width: 1536px){
+    .container{
+    max-width: 1536px;
+   }
+}

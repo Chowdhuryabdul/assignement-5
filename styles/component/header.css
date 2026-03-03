@@ -1,0 +1,48 @@
+header{
+    /* margin-top: 1rem; */
+    border-radius: .5rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-menu-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: .5rem;
+}
+
+
+.nav_menu-1-img{
+    width: 2.5rem;
+}
+
+.nav_menu-1-text{
+    font-size: var(--size-2xl);
+}
+.nav_menu-1-text span{
+    font-weight: 600;
+}
+
+ .nav-menu-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+.nav_menu-2-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.nav_menu-2-img{
+    width: 1rem;
+}
