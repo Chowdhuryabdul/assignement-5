@@ -37,11 +37,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    /* border: 1px solid blue; */
+    /* text-align: center; */
+    gap: 0.5rem;
+    border: 1px solid blue;
+    /* width: fit-content; */
     background-color: var(--clr-bg);
     border-radius: 0.5rem;
 }
+.span {
+    background-color: var(--clr-bg);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: var( --size-sm)}
 
 /* media queries  */
 /* For the XS  */
