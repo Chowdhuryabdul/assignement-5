@@ -15,7 +15,8 @@
 
 .card-section{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
   
     margin-top: 1rem;
@@ -73,4 +74,67 @@
 
 .activity-text{
     font-size: var(--size-sm);
+}
+
+
+
+/* media queries  */
+/* For the XS  */
+@media(min-width: 475px){
+    .main-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.card-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+}
+/* For the Sm  */
+@media(min-width: 640px){
+   .main-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.card-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+}
+/* For the medium  */
+@media(min-width: 768px){
+  .card-section {
+    display: grid;
+    /* gap: 0.5rem; */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    /* grid-template-columns: repeat(2, 1fr); */
+}
+
+  
+}
+/* For the lg  */
+@media(min-width: 1024px){
+   .main-section {
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .card-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* For the Xl  */
+@media(min-width: 1400px){
+  
+}
+/* For the 2xl  */
+@media(min-width: 1536px){
+  
 }

@@ -22,7 +22,7 @@
     margin-left: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    border: 1px solid red
+    /* border: 1px solid red */
 }
 
 
@@ -39,11 +39,11 @@
    } 
 }
 /* For the Sm  */
-/* @media(min-width: 640px){
+@media(min-width: 640px){
     .container{
     max-width: 640px;
    }
-} */
+}
 /* For the medium  */
 @media(min-width: 768px){
    .container{
