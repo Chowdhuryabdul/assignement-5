@@ -1,15 +1,15 @@
-header{
-    /* margin-top: 1rem; */
+header {
     border-radius: .5rem;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
 }
 
-.nav-menu-1{
+.nav-menu-1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,31 +18,43 @@ header{
 }
 
 
-.nav_menu-1-img{
+.nav_menu-1-img {
     width: 2.5rem;
 }
 
-.nav_menu-1-text{
+.nav_menu-1-text {
     font-size: var(--size-2xl);
 }
-.nav_menu-1-text span{
+
+.nav_menu-1-text span {
     font-weight: 600;
 }
 
- .nav-menu-2{
+.nav-menu-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
     gap: 2rem;
 }
-.nav_menu-2-container{
+
+.nav_menu-2-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4px;
+    gap: 8px;
+    background-color: var(--clr-bg);
+    padding: 6px;
+    border-radius: 1rem;
 }
 
-.nav_menu-2-img{
+.nav_menu-2-img {
     width: 1rem;
+}
+
+.nav_menu-2-btn-img {
+    width: 2rem;
+    background-color: var(--clr-bg);
+    padding: 6px;
+    border-radius: 100%;
 }

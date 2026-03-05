@@ -5,9 +5,9 @@ let randomNum = () => {
 }
 
 let changeColor = () => {
-   let randomColor = `rgb(${randomNum()}, ${randomNum()}, ${randomNum()})`
-   document.body.style.backgroundColor = randomColor
-   console.log('clikc me');
+    let randomColor = `rgb(${randomNum()}, ${randomNum()}, ${randomNum()})`
+    document.body.style.backgroundColor = randomColor
+    console.log('clikc me');
 }
 
 btn?.addEventListener('click', changeColor);

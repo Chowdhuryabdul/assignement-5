@@ -1,97 +1,56 @@
-.task-section{
+.task-section {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     gap: 1rem;
     margin-bottom: 0.5rem;
-
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
 }
 
-.task-section-1{
+.task-section-1 {
     display: flex;
-    /* justify-content:flex-start; */
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 1rem;
-    /* border: 1px solid blue; */
     background-color: var(--clr-bg);
     border-radius: 0.5rem;
     padding: 0.5rem;
 }
 
-.task-section-2{
+.task-section-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     align-items: center;
-    /* gap: 1rem;
-    border: 1px solid blue; */
     border-radius: 0.5rem;
     background: linear-gradient(135deg, #4f46e5, #60a5fa);
     box-shadow: 0 10px 30px rgba(79, 70, 229, 0.3);
 }
-.task-section-3{
+
+.task-section-3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
     gap: 0.5rem;
-    border: 1px solid blue;
-    /* width: fit-content; */
     background-color: var(--clr-bg);
     border-radius: 0.5rem;
 }
-.span {
-    background-color: var(--clr-bg);
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    text-align: center;
-    font-size: var( --size-sm)}
 
-/* media queries  */
+
+/* Media queries section */
 /* For the XS  */
-@media(min-width: 475px){
-    .task-section{
-    display: grid;
-    grid-template-columns: 1fr ;
-    gap: 1rem;
-    margin-bottom: 0.5rem;
-    /* justify-content: center; */
+@media(min-width: 475px) {
+    .task-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-bottom: 0.5rem;
+    }
+}
 
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
-}
-}
-/* For the Sm  */
-@media(min-width: 640px){
-   
-}
-/* For the medium  */
-@media(min-width: 768px){
-  
-  
-}
 /* For the lg  */
-@media(min-width: 1024px){
-  .task-section{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-   
-
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
-}
-}
-/* For the Xl  */
-@media(min-width: 1400px){
-  
-}
-/* For the 2xl  */
-@media(min-width: 1536px){
-  
+@media(min-width: 1024px) {
+    .task-section {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
 }
